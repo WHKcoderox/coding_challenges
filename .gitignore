@@ -1,3 +1,10 @@
+# ignore everything
+# unignore all directories
+# unignores all files with an extension
+*
+!*/
+!*.*
+
 # Prerequisites
 *.d
 
