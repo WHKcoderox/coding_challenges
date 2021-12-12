@@ -12,7 +12,7 @@ typedef pair<int, int> ii;
 class Solution {
 public:
     int nthMagicalNumber(int n, int a, int b) {
-        // naive solution: merge numbers
+        // find lcm and s p e e d
         ll curr, n1, n2;
         int i = 1, j = 1, mi = INF, mj = INF, temp;
         if (a == b) {
